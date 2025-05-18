@@ -69,7 +69,7 @@ def to_markdown(text):
 !pip install google-generativeai
 
 !pip install streamlit
-
+!npm install localtunnel
 import streamlit as st
 
 ##########################################
@@ -156,3 +156,4 @@ if ingrediente_principal:
         st.markdown(post_final)
     else:
         st.warning("Nenhuma receita foi encontrada. Não foi possível buscar uma imagem ou criar o post.")
+        !streamlit run /content/app_receitas.py & npx localtunnel --port 8501 &
