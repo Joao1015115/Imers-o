@@ -25,7 +25,7 @@ client = genai.Client()
 MODEL_ID = "gemini-2.0-flash"
 
 # Instalar Framework ADK de agentes do Google ################################################
-!pip install -q google-adk
+#!pip install -q google-adk
 
 from google.adk.agents import Agent
 from google.adk.runners import Runner
