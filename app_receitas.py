@@ -66,7 +66,7 @@ def to_markdown(text):
   text = text.replace('•', '  *')
   return Markdown(textwrap.indent(text, '> ', predicate=lambda _: True))
 
-!pip install google-generativeai
+#!pip install google-generativeai
 
 !pip install streamlit
 !npm install localtunnel
