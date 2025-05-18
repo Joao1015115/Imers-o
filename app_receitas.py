@@ -156,4 +156,4 @@ if ingrediente_principal:
         st.markdown(post_final)
     else:
         st.warning("Nenhuma receita foi encontrada. Não foi possível buscar uma imagem ou criar o post.")
-        !streamlit run /content/app_receitas.py & npx localtunnel --port 8501 &
+        #!streamlit run /content/app_receitas.py & npx localtunnel --port 8501 &
