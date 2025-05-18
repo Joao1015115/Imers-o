@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/15Pc0qII7Q8QN-3qPIv4X9TwiPyBya2e3
 """
 
-# %pip -q install google-genai
+# !pip -q install google-genai
 
 # Configura a API Key do Google Gemini
 
@@ -68,8 +68,8 @@ def to_markdown(text):
 
 #!pip install google-generativeai
 
-!pip install streamlit
-!npm install localtunnel
+#!pip install streamlit
+#!npm install localtunnel
 import streamlit as st
 
 ##########################################
